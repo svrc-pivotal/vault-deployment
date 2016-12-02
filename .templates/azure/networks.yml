@@ -1,0 +1,5 @@
+---
+networks:
+- name: vault_z1
+  type: manual
+  subnets: (( param "Specify the z1 network for vault" ))

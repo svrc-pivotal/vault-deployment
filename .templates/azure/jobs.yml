@@ -1,0 +1,9 @@
+---
+jobs:
+- name: vault_z1
+  instances: 3
+  .: (( inject meta.jobs.vault ))
+  networks:
+  - name: vault_z1
+    static_ips: (( static_ips(0, 1) ))
+  resource_pool: small_z1
