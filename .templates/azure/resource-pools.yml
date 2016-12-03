@@ -1,7 +1,7 @@
 ---
 meta:
   azure:
-    availabilty_set: (( param "Define the Azure availability set" ))
+    availability_set: (( param "Define the Azure availability set" ))
     storage_account_name: (( param "Define the Azure storage account" ))
 
 resource_pools:
